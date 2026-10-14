@@ -7,9 +7,9 @@ INICIO:
         Devolver a / b
     Excepto b==0:
         Devolver "Error división entre cero"
-FIN
 print(division_segura(10,0))
 print(division_segura(5,2))
+FIN
 '''
 def division_segura(a, b):
     """Divide dos números controlando la división entre cero."""

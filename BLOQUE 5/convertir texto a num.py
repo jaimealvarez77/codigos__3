@@ -7,10 +7,10 @@ Inicio:
         Devolver entero(texto)
     Excepto error de valor:
         Devolver "Error: no es un número"
-FIN
 LLAMADAS:
 convertir texto a numero("hola"))
 convertir texto a numero("7"))
+FIN
 '''
 def convertir_a_entero(texto):
     """Convierte un texto a entero controlando el error de formato."""

@@ -15,9 +15,9 @@ Bloque:
         Devolver "Error: valor no numérico"
     Excepto división por cero:
         Devolver "Error: división entre cero"
-FIN
 calculadora con control de errores("siete","cuatro","division")
 calculadora con control de errores("7","4","suma")
+FIN
 '''
 def calculadora_segura(texto_a, texto_b, operacion):
     """Suma o divide dos textos numéricos controlando los errores posibles."""

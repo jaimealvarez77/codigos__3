@@ -2,12 +2,15 @@
 Algoritmo: Invertir una cadena de texto
 Entrada: texto 
 Salida: texto invertido 
-Bloque de desarrollo:
+Inicio:
     Si longitud de texto <= 1 entonces
         Devolver texto
     Si no
         Devolver último carácter + invertir_texto(texto sin el último carácter)
     Fin si
+LLAMADAS:
+invertir una cadena de texto("hola mundo aqui estoy")
+FIN
 '''
 def invertir_texto(texto):
     """Invierte una cadena de texto de forma recursiva."""
